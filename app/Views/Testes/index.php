@@ -1,4 +1,3 @@
-<?php
+<h1><?php echo $titulo;?></h1> 
 
-
-echo 'Esse é a view que o controller Testes renderizou';
+<h1><?php echo $subtitulo;?></h1>
