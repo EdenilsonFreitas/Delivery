@@ -11,8 +11,9 @@ class UsuarioSeeder extends Seeder
         $usuarioModel = new \App\Models\UsuarioModel;
 
         $usuario = [
-            'nome' => 'Edenilsn Lima de Freitas',
-            'email' => 'admin@admin.com',
+            'nome' => 'Edenilson Freitas',
+            'email' => 'admin@admin1.com',
+            'cpf' => '888.802.840-45',
             'telefone' => '84 - 9999-5555',
         ];
         $usuarioModel->protect(false)->insert($usuario);
@@ -20,6 +21,7 @@ class UsuarioSeeder extends Seeder
         $usuario = [
             'nome' => 'Arthur de Bahia Formosa',
             'email' => 'celta123@gmail.com',
+            'cpf' => '128.431.420-08',
             'telefone' => '84 - 8888-5555',
         ];
         $usuarioModel->protect(false)->insert($usuario);
