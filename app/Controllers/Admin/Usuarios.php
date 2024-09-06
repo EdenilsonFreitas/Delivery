@@ -15,10 +15,13 @@ class Usuarios extends BaseController
 
     public function index()
     {
+
+        $data = [
+            'titulo'=>'Listando os usuários',
+            'usuarios'=>$this->usuarioModel->findAll()
+        ];
+
+        return view('Admin/Usuarios/index', $data);
         
-        $usuarios = $this->usuarioModel->findAll();
-
-        dd($usuarios);
-
     }
 }
