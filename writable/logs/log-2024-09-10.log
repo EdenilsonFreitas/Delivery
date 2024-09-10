@@ -154,3 +154,146 @@ WHERE `usuarios`.`deletado_em` IS NULL', [], false)
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-10 23:34:07 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\food\system\Model.php on line 930
+[Method: GET, Route: admin/usuarios/procurar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('id', 'nome')
+ 2 APPPATH\Models\UsuarioModel.php(25): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Admin\Usuarios.php(34): App\Models\UsuarioModel->procurar('ede')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->procurar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-10 23:34:09 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\food\system\Model.php on line 930
+[Method: GET, Route: admin/usuarios/procurar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('id', 'nome')
+ 2 APPPATH\Models\UsuarioModel.php(25): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Admin\Usuarios.php(34): App\Models\UsuarioModel->procurar('edenl')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->procurar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-10 23:34:10 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\food\system\Model.php on line 930
+[Method: GET, Route: admin/usuarios/procurar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('id', 'nome')
+ 2 APPPATH\Models\UsuarioModel.php(25): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Admin\Usuarios.php(34): App\Models\UsuarioModel->procurar('eden')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->procurar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-10 23:34:10 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\food\system\Model.php on line 930
+[Method: GET, Route: admin/usuarios/procurar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('id', 'nome')
+ 2 APPPATH\Models\UsuarioModel.php(25): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Admin\Usuarios.php(34): App\Models\UsuarioModel->procurar('edenil')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->procurar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-10 23:34:11 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\food\system\Model.php on line 930
+[Method: GET, Route: admin/usuarios/procurar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('id', 'nome')
+ 2 APPPATH\Models\UsuarioModel.php(25): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Admin\Usuarios.php(34): App\Models\UsuarioModel->procurar('edenilson')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->procurar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-10 23:36:06 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\food\system\Model.php on line 930
+[Method: GET, Route: admin/usuarios/procurar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('id', 'nome')
+ 2 APPPATH\Models\UsuarioModel.php(25): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Admin\Usuarios.php(34): App\Models\UsuarioModel->procurar('e')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->procurar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-10 23:36:08 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\food\system\Model.php on line 930
+[Method: GET, Route: admin/usuarios/procurar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('id', 'nome')
+ 2 APPPATH\Models\UsuarioModel.php(25): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Admin\Usuarios.php(34): App\Models\UsuarioModel->procurar('edenl')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->procurar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-10 23:36:09 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\food\system\Model.php on line 930
+[Method: GET, Route: admin/usuarios/procurar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('id', 'nome')
+ 2 APPPATH\Models\UsuarioModel.php(25): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Admin\Usuarios.php(34): App\Models\UsuarioModel->procurar('edenil')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->procurar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-10 23:36:10 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\food\system\Model.php on line 930
+[Method: GET, Route: admin/usuarios/procurar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('id', 'nome')
+ 2 APPPATH\Models\UsuarioModel.php(25): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Admin\Usuarios.php(34): App\Models\UsuarioModel->procurar('edenilson')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->procurar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-10 23:36:22 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\food\system\Model.php on line 930
+[Method: GET, Route: admin/usuarios/procurar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('id', 'nome')
+ 2 APPPATH\Models\UsuarioModel.php(25): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Admin\Usuarios.php(34): App\Models\UsuarioModel->procurar('edenilso')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->procurar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-10 23:36:24 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in C:\xampp\htdocs\food\system\Model.php on line 930
+[Method: GET, Route: admin/usuarios/procurar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 398.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->select('id', 'nome')
+ 2 APPPATH\Models\UsuarioModel.php(25): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Admin\Usuarios.php(34): App\Models\UsuarioModel->procurar('eu')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->procurar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
