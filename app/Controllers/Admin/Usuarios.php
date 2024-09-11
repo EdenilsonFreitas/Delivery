@@ -45,4 +45,31 @@ class Usuarios extends BaseController
         return $this->response->setJSON($retorno);
 
     }
+
+
+    public function show($id=null){
+
+        $usuario = $this->buscaUsuarioOu404($id);
+
+        dd($usuario);
+
+    }
+
+    /****
+     * @param int $id
+     * return objeto usuario
+     * 
+     */
+
+    private function buscaUsuarioOu404(int $id=null){
+
+        if (!$id || !$usuario=$this->usuarioModel->where('id', $id)->first()) {
+            
+            throw \CodeIgniter\Exceptions\PageNot\FoundException::forPageNotFound("Não encontramos o usuário $id");
+            
+        }
+        return $usuario;
+        
+    }
+    
 }

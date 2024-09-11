@@ -17,6 +17,13 @@ class UsuarioModel extends Model
 
 
 
+
+    /**
+     * @uso Controller usuários no Método procurar atraves do autocomplete
+     * @para String $term
+     * return arry usuarios
+     * 
+     */
     public function procurar($term){
 
         if ($term === null) {
