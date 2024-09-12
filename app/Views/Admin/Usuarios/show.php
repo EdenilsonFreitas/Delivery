@@ -18,7 +18,7 @@
 
 <div class="row">
 
-    <div class="col-lg-12 grid-margin stretch-card">
+    <div class="col-lg-6 grid-margin stretch-card">
         <div class="card">
             <div class="card-header bg-primary pb-0 pt-4 ">
             
@@ -29,7 +29,35 @@
             <div class="card-body">
                
 
-                <p class="card-text "><?php echo esc($usuario->nome); ?></p>
+                <p class="card-text ">
+                    <span class="font-wight-bold">Nome:</span>
+                    <?php echo esc($usuario->nome); ?>
+                </p>
+
+                <p class="card-text ">
+                    <span class="font-wight-bold">E-mail:</span>
+                    <?php echo esc($usuario->email); ?>
+                </p>
+
+                <p class="card-text ">
+                    <span class="font-wight-bold">Ativo:</span>
+                    <?php echo esc($usuario->ativo ? 'Sim' : 'Não'); ?>
+                </p>
+
+                <p class="card-text ">
+                    <span class="font-wight-bold">Perfiel:</span>
+                    <?php echo esc($usuario->is_admin ? 'Adminstrador' : 'Cliente'); ?>
+                </p>
+
+                <p class="card-text ">
+                    <span class="font-wight-bold">Criado:</span>
+                    <?php echo $usuario-> criado_em; ?>
+                </p>
+
+                <p class="card-text ">
+                    <span class="font-wight-bold">Atualizado:</span>
+                    <?php echo $usuario-> atualizado_em; ?>
+                </p>
 
 
                
