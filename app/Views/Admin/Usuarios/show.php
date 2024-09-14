@@ -61,11 +61,11 @@
 
                 <div class="mt-4">
 
-                <a href="<?= site_url("admin/usuarios/editar/{$usuario->id}"); ?>" class="btn btn-dark btn-sm mr-2 btn-icon-text btn-icon-prepend"> <i class=""></i>Editar </a>
+                <a href="<?= site_url("admin/usuarios/editar/{$usuario->id}"); ?>" class="btn btn-dark btn-sm mr-2 btn-icon-text btn-icon-prepend"> <i class="mdi mdi-pencil btn-icon-prepend"></i>Editar </a>
 
-                <a href="<?= site_url("admin/usuarios/excluir/{$usuario->id}"); ?>" class="btn btn-danger btn-sm mr-2 btn-icon-text btn-icon-prepend"> <i class=""></i>Excluir </a>
+                <a href="<?= site_url("admin/usuarios/excluir/{$usuario->id}"); ?>" class="btn btn-danger btn-sm mr-2 btn-icon-text btn-icon-prepend"> <i class="mdi mdi-trash-can btn-icon-prepend"></i>Excluir </a>
 
-                <a href="<?= site_url("admin/usuarios/{$usuario->id}"); ?>" class="btn btn-light text-dark btn-sm  btn-icon-text btn-icon-prepend"> <i class=""></i>Voltar </a>
+                <a href="<?= site_url("admin/usuarios/{$usuario->id}"); ?>" class="btn btn-light text-dark btn-sm  btn-icon-text btn-icon-prepend"> <i class="mdi mdi-arrow-left btn-icon-prepend"></i>Voltar </a>
                 
                 </div>
 
