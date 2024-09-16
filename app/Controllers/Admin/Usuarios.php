@@ -21,6 +21,8 @@ class Usuarios extends BaseController
             'usuarios'=>$this->usuarioModel->findAll()
         ];
 
+        
+
         return view('Admin/Usuarios/index', $data);
         
     }
