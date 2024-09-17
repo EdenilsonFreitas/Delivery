@@ -86,6 +86,16 @@ class Usuarios extends BaseController
             $post = $this->request->getPost();
 
             $usuario -> fill($post);
+
+            if ($this ->usuarioModel -> protect(false) -> save($usuario)) {
+                return redirect()->to (site_url("admiin/usuarios/show/$usuario->id"))
+                ->with('sucesso', "Usuario $usuario->nome atualizado com sucesso");
+
+            }else{
+                return redirect()->back()
+                        ->with('errors_model', $this->usuarioModel->erros())
+                        ->with('atencao', 'Por favor verifique os erros abaixo');
+            }
         }else{
 
             /**Não é post */
