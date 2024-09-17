@@ -298,6 +298,7 @@
                     <?php endif; ?>
 
 
+                    <!-- Captura os erros de CSRF - Ação não permitida-->
                     <?php if(session()->has('error')):?>
 
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">

@@ -64,11 +64,9 @@ class Usuarios extends BaseController
         return view ('Admin/Usuarios/show', $data);
     }
 
-    public function editar($id=null){
+    public function editar($id = null){
 
         $usuario = $this->buscaUsuarioOu404($id); 
-
-        
 
         $data = [
 
@@ -77,6 +75,22 @@ class Usuarios extends BaseController
 
         ];
         return view ('Admin/Usuarios/editar', $data);
+    }
+
+    public function atualizar($id = null){
+
+        if($this->request->getMethod() === 'post') {
+
+            $usuario = $this->buscaUsuarioOu404($id);
+
+            $post = $this->request->getPost();
+
+            $usuario -> fill($post);
+        }else{
+
+            /**Não é post */
+            return redirect()->back();
+        }
     }
 
 
