@@ -6,6 +6,7 @@ use CodeIgniter\Model;
 
 class UsuarioModel extends Model
 {
+
     protected $table            = 'usuarios';
     protected $returnType       = 'App\Entities\Usuario';
     protected $allowedFields    = ['nome','email','telefone'];
@@ -61,6 +62,12 @@ class UsuarioModel extends Model
                    ->like('nome', $term)
                    ->get()
                    ->getResult();
+    }
+
+    public function desabilitaValidacaoSenha(){
+
+        unset($this->validationRules['password']);
+        unset($this->validationRules['password_confirmation']);
     }
     
 

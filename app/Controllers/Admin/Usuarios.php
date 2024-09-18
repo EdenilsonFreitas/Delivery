@@ -79,19 +79,30 @@ class Usuarios extends BaseController
    public function atualizar($id = null)
 {
     // Verifica se o método da requisição é POST
-    if ($this->request->getMethod() === 'post') {
+    if ($this->request->getMethod() === 'POST') {
         
         // Busca o usuário pelo ID ou retorna 404 se não encontrado
         $usuario = $this->buscaUsuarioOu404($id);
         
         // Coleta os dados enviados via POST
-        $dados = $this->request->getPost();
+        $post = $this->request->getPost();
+
+        if (empty($post['passsword'])) {
+            $this->usuarioModel->desabilitaValidacaoSenha();
+            unset($post['password']);
+            unset($post['password_confirmation']);
+        }
 
         // Preenche o objeto usuário com os dados recebidos
-        $usuario->fill($dados);
+        $usuario->fill($post);
+
+        if (!$usuario->haschanged()) {
+            return redirect()->back()
+                             ->with('info', 'Não há dados para atualizar');   
+        }
 
         // Verifica se o objeto foi preenchido corretamente
-        if ($this->usuarioModel->save($usuario)) {
+        if ($this->usuarioModel->protect(false)->save($usuario)) {
             // Redireciona para a página de sucesso com mensagem
             return redirect()->to(site_url("admin/usuarios/show/{$usuario->id}"))
                              ->with('sucesso', "Usuário {$usuario->nome} atualizado com sucesso!");
