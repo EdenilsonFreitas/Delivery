@@ -40,7 +40,7 @@
     </div>
 
     <div class="form-group col-md-3">
-        <label for="email">Perfil de acesso</label>
+        <label for="is_admin">Perfil de acesso</label>
         <select class="form-control" name="is_admin">
 
             <?php if($usuario->id):?>
@@ -60,7 +60,7 @@
     </div>
 
     <div class="form-group col-md-3">
-        <label for="email">Ativo</label>
+        <label for="ativo">Ativo</label>
         <select class="form-control" name="ativo">
 
             <?php if($usuario->id):?>
@@ -69,6 +69,7 @@
             
 
             <?php else: ?>
+
             <option value="1">Sim</option>
             <option value="0" selected="">Não</option>
 

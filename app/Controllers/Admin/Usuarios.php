@@ -53,8 +53,6 @@ class Usuarios extends BaseController
 
         $usuario = $this->buscaUsuarioOu404($id); 
 
-        
-
         $data = [
 
             'titulo' => "Detalhando o usuário {$usuario->nome}",
@@ -85,7 +83,7 @@ class Usuarios extends BaseController
 
             $post = $this->request->getPost();
 
-            $usuario -> fill($post);
+            $usuario->fill($post);
 
             if ($this ->usuarioModel -> protect(false) -> save($usuario)) {
                 return redirect()->to (site_url("admiin/usuarios/show/$usuario->id"))
@@ -93,7 +91,7 @@ class Usuarios extends BaseController
 
             }else{
                 return redirect()->back()
-                        ->with('errors_model', $this->usuarioModel->erros())
+                        ->with('errors_model', $this->usuarioModel->errors())
                         ->with('atencao', 'Por favor verifique os erros abaixo');
             }
         }else{
