@@ -75,32 +75,40 @@ class Usuarios extends BaseController
         return view ('Admin/Usuarios/editar', $data);
     }
 
-    public function atualizar($id = null){
+    
+   public function atualizar($id = null)
+{
+    // Verifica se o método da requisição é POST
+    if ($this->request->getMethod() === 'post') {
+        
+        // Busca o usuário pelo ID ou retorna 404 se não encontrado
+        $usuario = $this->buscaUsuarioOu404($id);
+        
+        // Coleta os dados enviados via POST
+        $dados = $this->request->getPost();
 
-        if($this->request->getMethod() === 'post') {
+        // Preenche o objeto usuário com os dados recebidos
+        $usuario->fill($dados);
 
-            $usuario = $this->buscaUsuarioOu404($id);
-
-            $post = $this->request->getPost();
-
-            $usuario->fill($post);
-
-            if ($this ->usuarioModel -> protect(false) -> save($usuario)) {
-                return redirect()->to (site_url("admiin/usuarios/show/$usuario->id"))
-                ->with('sucesso', "Usuario $usuario->nome atualizado com sucesso");
-
-            }else{
-                return redirect()->back()
-                        ->with('errors_model', $this->usuarioModel->errors())
-                        ->with('atencao', 'Por favor verifique os erros abaixo');
-            }
-        }else{
-
-            /**Não é post */
-            return redirect()->back();
+        // Verifica se o objeto foi preenchido corretamente
+        if ($this->usuarioModel->save($usuario)) {
+            // Redireciona para a página de sucesso com mensagem
+            return redirect()->to(site_url("admin/usuarios/show/{$usuario->id}"))
+                             ->with('sucesso', "Usuário {$usuario->nome} atualizado com sucesso!");
+        } else {
+            // Captura os erros de validação e redireciona para a página anterior com erros
+            return redirect()->back()
+                             ->with('errors_model', $this->usuarioModel->errors())
+                             ->with('atencao', 'Por favor verifique os erros abaixo.')
+                             ->withInput(); // Mantém os dados no formulário
         }
-    }
+    } 
 
+    // Se o método não for POST, redireciona para a página anterior
+    return redirect()->back();
+}
+
+     
 
 
 
