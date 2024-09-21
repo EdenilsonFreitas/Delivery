@@ -5,6 +5,7 @@ namespace App\Controllers\Admin;
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
 
+
 class Usuarios extends BaseController
 {
     private $usuarioModel;
@@ -129,6 +130,8 @@ class Usuarios extends BaseController
      * return objeto usuario
      * 
      */
+
+    
 
     private function buscaUsuarioOu404(int $id=null){
 
