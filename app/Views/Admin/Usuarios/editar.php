@@ -43,7 +43,7 @@
                 <?php endif; ?>
 
 
-                <?php echo form_open("admin/usuarios/atualizar/$usuario->id"); ?>
+                <?php echo form_open("admin/usuarios/atualizar/{$usuario->id}"); ?>
 
                 <?php echo $this->include('Admin/Usuarios/form'); ?>
 

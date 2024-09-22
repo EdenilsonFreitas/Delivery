@@ -9,7 +9,7 @@ class UsuarioModel extends Model
 
     protected $table            = 'usuarios';
     protected $returnType       = 'App\Entities\Usuario';
-    protected $allowedFields    = ['nome','email','telefone'];
+    protected $allowedFields    = ['nome', 'email', 'telefone', 'cpf', 'password', 'password_confirmation'];
     protected $useSoftDeletes   = true;
     protected $useTimestamps    = true;
     protected $createdField     = 'criado_em';
