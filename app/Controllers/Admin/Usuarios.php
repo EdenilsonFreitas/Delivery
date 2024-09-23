@@ -80,13 +80,15 @@ class Usuarios extends BaseController
    public function atualizar($id = null)
 {
     // Verifica se o método da requisição é POST
-    if ($this->request->getMethod() === 'POST') {
+    if ($this->request->getMethod() === 'post') {
         
         // Busca o usuário pelo ID ou retorna 404 se não encontrado
         $usuario = $this->buscaUsuarioOu404($id);
         
         // Coleta os dados enviados via POST
         $post = $this->request->getPost();
+
+        
 
         if (empty($post['passsword'])) {
             $this->usuarioModel->desabilitaValidacaoSenha();
@@ -95,7 +97,7 @@ class Usuarios extends BaseController
         }
 
         // Preenche o objeto usuário com os dados recebidos
-        $usuario->fill($post);
+        $usuario->fill($post); 
 
         if (!$usuario->haschanged()) {
             return redirect()->back()
@@ -111,8 +113,8 @@ class Usuarios extends BaseController
             // Captura os erros de validação e redireciona para a página anterior com erros
             return redirect()->back()
                              ->with('errors_model', $this->usuarioModel->errors())
-                             ->with('atencao', 'Por favor verifique os erros abaixo.')
-                             ->withInput(); // Mantém os dados no formulário
+                             ->with('atencao', 'Por favor verifique os erros abaixo.');
+                            // ->withInput(); // Mantém os dados no formulário
         }
     } 
 

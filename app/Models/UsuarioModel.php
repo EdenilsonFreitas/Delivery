@@ -24,14 +24,14 @@ class UsuarioModel extends Model
     ];
     protected $validationMessages = [
         'nome' => [
-            'required' => 'Esse campo é obrigatório.',
+            'required' => 'O campo Nome é obrigatório.',
         ],
           'email' => [
-            'required' => 'Esse campo é obrigatório.',
+            'required' => 'O campo E-mail é obrigatório.',
             'is_unique' => 'Desculpe! esse email já existe.',
         ],
         'cpf' => [
-            'required' => 'Esse campo é obrigatório.',
+            'required' => 'O campo CPF é obrigatório.',
             'is_unique' => 'Desculpe! esse CPF já existe.',
         ],
     ];

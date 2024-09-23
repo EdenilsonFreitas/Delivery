@@ -32,7 +32,7 @@
                 <?php if(session()->has('errors_model')): ?>
 
                 <ul>
-                    <?php foreach (session('errors_model') as $error): ?>
+                    <?php foreach (session('errors_model') as $error): ?>// O Foreach ele percorre todos os erros
 
                         <li class="text-danger"><?php echo $error;?></li>
 
