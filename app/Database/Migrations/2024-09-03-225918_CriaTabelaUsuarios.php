@@ -79,6 +79,12 @@ class CriaTabelaUsuarios extends Migration
                 'null'=> true,
                 'default'=> null,
             ],
+            'updated_at' => [
+                'type' => 'TIMESTAMP',
+                'null' => true,
+                'default' => null,
+                'on_update' => 'CURRENT_TIMESTAMP',
+            ],
 
 
         ]);

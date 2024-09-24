@@ -16,7 +16,7 @@ class UsuarioSeeder extends Seeder
             'cpf' => '668.262.160-43',
             'telefone' => '84 - 9999-5555',
         ];
-        $usuarioModel->protect(false)->insert($usuario);
+        $usuarioModel->skipValidation(true)->protect(false)->insert($usuario);
 
         $usuario = [
             'nome' => 'Neida Terto',
@@ -24,7 +24,7 @@ class UsuarioSeeder extends Seeder
             'cpf' => '976.244.060-98',
             'telefone' => '84 - 9444-5555',
         ];
-        $usuarioModel->protect(false)->insert($usuario);
+        $usuarioModel->skipValidation(true)->protect(false)->insert($usuario);
 
         dd($usuarioModel->errors());
     }

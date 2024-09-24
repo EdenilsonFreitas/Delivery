@@ -105,6 +105,7 @@ class Usuarios extends BaseController
         }
 
         // Verifica se o objeto foi preenchido corretamente
+            
         if ($this->usuarioModel->protect(false)->save($usuario)) {
             // Redireciona para a página de sucesso com mensagem
             return redirect()->to(site_url("admin/usuarios/show/{$usuario->id}"))
@@ -140,6 +141,7 @@ class Usuarios extends BaseController
         if (!$id || !$usuario=$this->usuarioModel->where('id', $id)->first()) {
             
             throw \CodeIgniter\Exceptions\PageNot\FoundException::forPageNotFound("Não encontramos o usuário $id");
+            
             
         }
         return $usuario;
