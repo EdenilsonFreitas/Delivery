@@ -1,0 +1,365 @@
+INFO - 2024-09-27 18:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-27 18:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 18:11:21 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 68
+[Method: GET, Route: admin/usuarios/editar/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(68): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:11:21 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 68
+[Method: GET, Route: admin/usuarios/editar/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(68): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:11:21 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 68
+[Method: GET, Route: admin/usuarios/editar/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(68): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:11:21 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 68
+[Method: GET, Route: admin/usuarios/editar/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(68): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:11:21 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 68
+[Method: GET, Route: admin/usuarios/editar/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(68): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:11:22 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 68
+[Method: GET, Route: admin/usuarios/editar/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(68): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2024-09-27 18:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 18:11:47 --> Error: Call to a member function humanize() on null
+[Method: GET, Route: admin/usuarios/show/2]
+in APPPATH\Views\Admin\Usuarios\show.php on line 59.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Admin/Usuarios/show', [], true)
+ 4 APPPATH\Controllers\Admin\Usuarios.php(63): view('Admin/Usuarios/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('2')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2024-09-27 18:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 18:29:13 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:29:13 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:29:13 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:29:13 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:29:13 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:29:14 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2024-09-27 18:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 18:31:49 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:31:49 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:31:49 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:31:49 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:31:49 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:31:49 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2024-09-27 18:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 18:57:32 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:57:32 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:57:32 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:57:32 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:57:32 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 18:57:32 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 19:02:13 --> Error: Call to a member function humanize() on null
+[Method: GET, Route: admin/usuarios/show/2]
+in APPPATH\Views\Admin\Usuarios\show.php on line 60.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Admin/Usuarios/show', [], true)
+ 4 APPPATH\Controllers\Admin\Usuarios.php(63): view('Admin/Usuarios/show', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('2')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+INFO - 2024-09-27 19:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-27 19:03:41 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/logo.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 19:03:41 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/logo-mini.svg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 19:03:41 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face4.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 19:03:42 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face2.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 19:03:42 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face3.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
+CRITICAL - 2024-09-27 19:03:42 --> TypeError: App\Controllers\Admin\Usuarios::buscaUsuarioOu404(): Argument #1 ($id) must be of type ?int, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Usuarios.php on line 55
+[Method: GET, Route: admin/usuarios/show/images/faces/face5.jpg]
+in APPPATH\Controllers\Admin\Usuarios.php on line 139.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(55): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\food\\public\\index.php')
