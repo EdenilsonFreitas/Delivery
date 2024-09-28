@@ -8,7 +8,7 @@ class Usuario extends Entity
 {
     
     protected $dates   = [
-        'criado_em',
+         'criado_em',
          'atualizado_em', 
          'deletado_em'
         ];

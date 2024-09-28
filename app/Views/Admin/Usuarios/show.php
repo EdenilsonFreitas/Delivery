@@ -51,14 +51,15 @@
 
                 <p class="card-text">
                     <span class="font-weight-bold">Criado:</span>
-                   <?php echo $usuario->criado_em ? $usuario->criado_em->format('d/m/Y H:i:s') : 'Não disponível'; ?>
+                  <?php echo $usuario->criado_em->humanize(); ?>
+
 
 
                 </p>
 
                 <p class="card-text">
                     <span class="font-weight-bold">Atualizado:</span>
-                     <?php echo $usuario->atualizado_em ? $usuario->atualizado_em->format('d/m/Y H:i:s') : 'Não disponível'; ?>
+                   <?php echo $usuario->atualizado_em->humanize(); ?>
 
 
                 </p>
