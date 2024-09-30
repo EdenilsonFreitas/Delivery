@@ -21,7 +21,7 @@ class Usuarios extends BaseController
             'titulo'=>'Listando os usuários',
             'usuarios'=>$this->usuarioModel->findAll()
         ];
-
+        
         
 
         return view('Admin/Usuarios/index', $data);
@@ -80,7 +80,7 @@ class Usuarios extends BaseController
    public function atualizar($id = null)
 {
     // Verifica se o método da requisição é POST
-    if ($this->request->getMethod() === 'post') {
+    if ($this->request->getMethod() === 'POST') {
         
         // Busca o usuário pelo ID ou retorna 404 se não encontrado
         $usuario = $this->buscaUsuarioOu404($id);
@@ -88,7 +88,7 @@ class Usuarios extends BaseController
         // Coleta os dados enviados via POST
         $post = $this->request->getPost();
 
-        
+ 
 
         if (empty($post['passsword'])) {
             $this->usuarioModel->desabilitaValidacaoSenha();
