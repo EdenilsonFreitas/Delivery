@@ -111,7 +111,8 @@ class Usuarios extends BaseController
             }else{
                 return redirect()->back()
                                 ->with('errors_model', $this->usuarioModel->errors())
-                                ->with('atenção', 'Por favor verifique os erros abaixo');
+                                ->with('atenção', 'Por favor verifique os erros abaixo')
+                                ->withInput();
             }
         }else{
 

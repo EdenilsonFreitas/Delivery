@@ -44,13 +44,13 @@
         <select class="form-control" name="is_admin">
 
             <?php if($usuario->id):?>
-            <option value="1" <?php echo ($usuario-> is_admin? 'selected' : ''); ?>>Administrador</option>
-            <option value="0" <?php echo (!$usuario-> is_admin ? 'selected' : ''); ?>>Cliente</option>
+            <option value="1" <?php echo set_select('is_admin', '1'); ?> <?php echo ($usuario-> is_admin? 'selected' : ''); ?>>Administrador</option>
+            <option value="0" <?php echo set_select('is_admin', '0'); ?> <?php echo (!$usuario-> is_admin ? 'selected' : ''); ?>>Cliente</option>
             
 
             <?php else: ?>
-            <option value="1">Sim</option>
-            <option value="0" selected="">Não</option>
+            <option value="1" <?php echo set_select('is_admin', '1'); ?> >Sim</option>
+            <option value="0" <?php echo set_select('is_admin', '0'); ?>  selected="">Não</option>
 
             <?php endif; ?>
 
@@ -64,14 +64,14 @@
         <select class="form-control" name="ativo">
 
             <?php if($usuario->id):?>
-            <option value="1" <?php echo ($usuario-> ativo ? 'selected' : ''); ?>>Sim</option>
-            <option value="0" <?php echo (!$usuario-> ativo ? 'selected' : ''); ?>>Não</option>
+            <option value="1" <?php echo set_select('ativo', '1'); ?> <?php echo ($usuario-> ativo ? 'selected' : ''); ?>>Sim</option>
+            <option value="0" <?php echo set_select('ativo', '0'); ?>  <?php echo (!$usuario-> ativo ? 'selected' : ''); ?>>Não</option>
             
 
             <?php else: ?>
 
-            <option value="1">Sim</option>
-            <option value="0" selected="">Não</option>
+            <option value="1" <?php echo set_select('ativo', '1'); ?>  >Sim</option>
+            <option value="0" <?php echo set_select('ativo', '0'); ?>  selected="">Não</option>
 
             <?php endif; ?>
 
