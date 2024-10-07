@@ -9,7 +9,7 @@ class UsuarioModel extends Model
 
     protected $table            = 'usuarios';
     protected $returnType       = 'App\Entities\Usuario';
-    protected $allowedFields    = ['nome', 'email', 'cpf', 'telefone',];
+    protected $allowedFields    = ['nome', 'email', 'telefone',];
     protected $useSoftDeletes   = true;
     protected $useTimestamps    = true;
     protected $createdField     = 'criado_em';
@@ -37,7 +37,23 @@ class UsuarioModel extends Model
         ],
     ];
 
+//Eventos Callback
+protected $beforeInsert = ['hashPassword'];
+protected $beforeUpdate = ['hashPassword'];
 
+
+protected function hashPassword(array $data){
+
+    if (isset (['data']['password'])) {
+
+        $data ['data']['password_hash'] = password_hash($data ['data']['password'], PASSWORD_DEFAULT);
+        
+        unset($data ['data']['password']);
+        unset($data ['data']['password_confirmation']);
+        
+    }
+    return $data;
+}
 
 
 
