@@ -28,8 +28,17 @@
                 <h4 class="card-title"><?php echo $titulo; ?></h4>
 
                 <div class="ui-widget">
-                    <input id="query" name="query" placeholder = "Pesquise um Usuário" class="form-control bg-light mb-5">
+                    <input id="query" name="query" placeholder="Pesquise um Usuário" class="form-control bg-light mb-5">
                 </div>
+
+                <a href="<?php echo site_url('admin/usuarios/criar'); ?>" class="btn btn-success btn-icon-prepend float-right mb-5">
+                    <i class="mdi mdi-plus btn-icon-prepend"></i>
+                    Cadastrar
+                </a>
+
+
+
+
 
                 <div class="table-responsive">
                     <table class="table table-hover">
@@ -46,8 +55,9 @@
                             <?php foreach ($usuarios as $usuario) : ?>
 
                             <tr>
-                                <td> 
-                                   <a href="<?php echo site_url("admin/usuarios/show/$usuario->id"); ?>"><?php echo $usuario->nome; ?></a>
+                                <td>
+                                    <a
+                                        href="<?php echo site_url("admin/usuarios/show/$usuario->id"); ?>"><?php echo $usuario->nome; ?></a>
                                 </td>
                                 <td><?php echo $usuario->email; ?></td>
                                 <td><?php echo $usuario->cpf; ?></td>
@@ -78,50 +88,46 @@
 
 
 <script>
+$(function() {
 
-    $(function(){
+    $("#query").autocomplete({
+        source: function(request, response) {
+            $.ajax({
 
-        $( "#query" ).autocomplete({
-      source: function (request, response){
-        $.ajax({
-
-            url: "<?php echo site_url('admin/usuarios/procurar'); ?>",
-            dataType: "json",
-            data:{
-                term:request.term
-            },
-            success: function(data){
-                if(data.length < 1){
-                    var data = [
-                        {
+                url: "<?php echo site_url('admin/usuarios/procurar'); ?>",
+                dataType: "json",
+                data: {
+                    term: request.term
+                },
+                success: function(data) {
+                    if (data.length < 1) {
+                        var data = [{
                             label: 'Usuário não encontrado',
                             value: -1
-                        }
-                    ];
+                        }];
 
-                }
-                response(data);// aqui temos o valor no data
+                    }
+                    response(data); // aqui temos o valor no data
 
-            },
+                },
 
-        }); // fim do ajax
+            }); // fim do ajax
 
-      },
-      minLenght: 1,
-      select:function(event, ui){
-        if(ui.item.value == -1){
-            $(this).val("");
-            return false;
-        }else{
-            window.location.href='<?php echo site_url('admin/usuarios/show/'); ?>' + ui.item.id;
+        },
+        minLenght: 1,
+        select: function(event, ui) {
+            if (ui.item.value == -1) {
+                $(this).val("");
+                return false;
+            } else {
+                window.location.href = '<?php echo site_url('admin/usuarios/show/'); ?>' + ui.item
+                    .id;
+            }
+
         }
-
-      }
     }); // fim do autocomplete
-        
-    });                            
 
-
+});
 </script>
 
 <?php echo $this->endSection(); ?>

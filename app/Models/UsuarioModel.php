@@ -55,15 +55,6 @@ protected function hashPassword(array $data){
     return $data;
 }
 
-
-
-
-
-
-
-
-
-
     /**
      * @uso Controller usuários no Método procurar atraves do autocomplete
      * @para String $term
